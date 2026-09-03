@@ -680,5 +680,48 @@
     "verified": true,
     "featured": false,
     "lastUpdated": "2026-09-03"
+  },
+  {
+    "id": "kaust-fellowship-saudi-arabia",
+    "title": "KAUST Fellowship (King Abdullah University of Science and Technology)",
+    "category": "Asia & Australia",
+    "fundingType": "Fully Funded",
+    "platform": "Official Portal",
+    "memberCount": 26500,
+    "deadlineSeason": "October – January (Annual)",
+    "description": "Prestigious all-inclusive graduate fellowship supporting Master's and PhD STEM students with full tuition support, monthly living allowance ($20,000–$30,000 annually), on-campus private housing, medical and dental coverage, and relocation assistance.",
+    "joinUrl": "https://www.kaust.edu.sa/en/study/fellowship-and-funding",
+    "tags": [
+      "KAUST",
+      "STEM",
+      "Full Stipend",
+      "Housing Provided",
+      "Masters",
+      "PhD"
+    ],
+    "verified": true,
+    "featured": false,
+    "lastUpdated": "2026-09-03"
+  },
+  {
+    "id": "mccall-macbain-scholarships-mcgill",
+    "title": "McCall MacBain Scholarships at McGill University",
+    "category": "USA & Canada",
+    "fundingType": "Fully Funded",
+    "platform": "Official Portal",
+    "memberCount": 31000,
+    "deadlineSeason": "June – August (Annual)",
+    "description": "Canada's comprehensive leadership-driven scholarship for master's and professional degree programs at McGill University. Covers full tuition and fees, a CAD $2,000 monthly living stipend, and relocation grants.",
+    "joinUrl": "https://mccallmacbainscholars.org/",
+    "tags": [
+      "McGill University",
+      "Canada",
+      "Leadership",
+      "Masters",
+      "Full Tuition"
+    ],
+    "verified": true,
+    "featured": true,
+    "lastUpdated": "2026-09-03"
   }
 ]
