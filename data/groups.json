@@ -723,5 +723,47 @@
     "verified": true,
     "featured": true,
     "lastUpdated": "2026-09-03"
+  },
+  {
+    "id": "cern-doctoral-technical-student-programme",
+    "title": "CERN Doctoral & Technical Student Fellowship",
+    "category": "Europe & UK",
+    "fundingType": "Research Grant",
+    "platform": "Official Portal",
+    "memberCount": 21000,
+    "deadlineSeason": "Bi-Annual (March & October)",
+    "description": "European Organization for Nuclear Research (CERN) fellowship providing 3,700–4,200 CHF monthly living allowance, comprehensive medical insurance, travel allowance, and state-of-the-art laboratory placement in Geneva, Switzerland.",
+    "joinUrl": "https://careers.cern/students",
+    "tags": [
+      "CERN",
+      "Physics",
+      "Engineering",
+      "PhD Research",
+      "Switzerland"
+    ],
+    "verified": true,
+    "featured": false,
+    "lastUpdated": "2026-09-03"
+  },
+  {
+    "id": "monash-international-leadership-scholarship",
+    "title": "Monash International Leadership Scholarship",
+    "category": "Asia & Australia",
+    "fundingType": "Partial / Tuition",
+    "platform": "Official Portal",
+    "memberCount": 34000,
+    "deadlineSeason": "October & January (Annual Rounds)",
+    "description": "Flagship 100% tuition waiver award for high-achieving international undergraduate and postgraduate students enrolling at Monash University in Melbourne, Australia.",
+    "joinUrl": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/international-leadership-5700",
+    "tags": [
+      "Australia",
+      "Monash University",
+      "100% Tuition",
+      "Undergraduate",
+      "Masters"
+    ],
+    "verified": true,
+    "featured": false,
+    "lastUpdated": "2026-09-03"
   }
 ]
