@@ -634,5 +634,51 @@
     "verified": true,
     "featured": false,
     "lastUpdated": "2026-09-03"
+  },
+  {
+    "id": "invest-your-talent-italy",
+    "title": "Invest Your Talent in Italy (MAECI-ICE)",
+    "category": "Europe & UK",
+    "fundingType": "Fully Funded",
+    "platform": "Official Portal",
+    "memberCount": 15000,
+    "deadlineSeason": "February – April (Annual)",
+    "description": "The Invest Your Talent in Italy program offers scholarships for Master's and PhD degrees in engineering, advanced technologies, and design at top Italian universities. It covers full tuition fees, provides a monthly stipend for living costs, and includes professional training and internship opportunities. While airfare is typically not included, comprehensive living expenses are covered.",
+    "joinUrl": "https://investyourtalent.esteri.it/en/",
+    "tags": [
+      "Italy",
+      "Engineering",
+      "Design",
+      "Technology",
+      "Master's",
+      "PhD",
+      "STEM"
+    ],
+    "verified": true,
+    "featured": false,
+    "lastUpdated": "2026-09-03"
+  },
+  {
+    "id": "new-zealand-aid-scholarships",
+    "title": "New Zealand Aid Programme Scholarships",
+    "category": "Asia & Australia",
+    "fundingType": "Fully Funded",
+    "platform": "Official Portal",
+    "memberCount": 10000,
+    "deadlineSeason": "February – March (Annual)",
+    "description": "The New Zealand Scholarships are fully funded awards for eligible international students from developing countries to pursue undergraduate and postgraduate studies at New Zealand universities and tertiary institutions. These scholarships cover full tuition fees, return airfares, living costs, and medical insurance, focusing on development-oriented academic disciplines.",
+    "joinUrl": "https://www.mfat.govt.nz/en/aid-and-development/new-zealand-scholarships/",
+    "tags": [
+      "New Zealand",
+      "Development Studies",
+      "Postgraduate",
+      "Undergraduate",
+      "Pacific",
+      "Asia",
+      "Aid"
+    ],
+    "verified": true,
+    "featured": false,
+    "lastUpdated": "2026-09-03"
   }
 ]
