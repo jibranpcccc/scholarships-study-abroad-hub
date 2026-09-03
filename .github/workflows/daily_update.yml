@@ -1,0 +1,43 @@
+name: Scheduled Scholarship Directory Discovery & Feed Update
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-directory:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Execute Content Updater with Gemini 2.5 Flash
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python update_content.py
+
+      - name: Commit and Push Updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/groups.json index.html sitemap.xml feed.xml robots.txt
+          if git diff --staged --quiet; then
+            echo "No directory modifications detected."
+          else
+            git commit -m "Auto-update: Discovered new verified scholarships & rebuilt feeds [skip ci]"
+            git push origin main
+          fi
