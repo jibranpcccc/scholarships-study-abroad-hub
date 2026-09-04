@@ -87,6 +87,10 @@
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".geo-answer-block h2", ".geo-answer-block p"]
+      },
     "@id": "https://jibranpcccc.github.io/scholarships-study-abroad-hub/#directory",
     "name": "Verified International Scholarships & Study Abroad Communities (2026-2027)",
     "description": "Comprehensive catalog of verified fully funded scholarships, tuition grants, and applicant mentorship networks.",
@@ -626,6 +630,39 @@
     ]
   }
 ]
+    
+        // Copy Invite Link with Feedback
+        function copyInviteLink(url, btn) {
+            if (!url || url === '#') return;
+            navigator.clipboard.writeText(url).then(() => {
+                const origHtml = btn.innerHTML;
+                btn.innerHTML = '<span>✓ Copied!</span>';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.innerHTML = origHtml;
+                    btn.classList.remove('copied');
+                }, 2000);
+            }).catch(() => {
+                window.open(url, '_blank');
+            });
+        }
+
+        // Power-User Keyboard Shortcut: Press '/' to Focus Search, 'Escape' to Clear
+        document.addEventListener('keydown', (e) => {
+            const searchEl = document.getElementById('searchInput') || document.getElementById('search-input');
+            if (!searchEl) return;
+            if (e.key === '/' && document.activeElement !== searchEl) {
+                e.preventDefault();
+                searchEl.focus();
+                searchEl.select();
+            } else if (e.key === 'Escape' && document.activeElement === searchEl) {
+                searchEl.value = '';
+                if (typeof filterCards === 'function') filterCards();
+                if (typeof clearSearch === 'function') clearSearch();
+                searchEl.blur();
+            }
+        });
+        
     </script>
 
     <style>
@@ -1483,6 +1520,12 @@
             .geo-answer-block { padding: 20px; }
             .hero { padding: 48px 0 32px; }
         }
+    
+        .btn-copy-invite { background: rgba(255,255,255,0.08); color: var(--muted); border: 1px solid var(--border); padding: 7px 12px; border-radius: 6px; font-size: 0.82rem; font-weight: 500; cursor: pointer; display: inline-flex; align-items: center; gap: 5px; transition: all 0.2s; }
+        .btn-copy-invite:hover { background: rgba(255,255,255,0.15); color: #fff; }
+        .btn-copy-invite.copied { background: rgba(16, 185, 129, 0.2); color: #10b981; border-color: #10b981; }
+        .card-actions { display: flex; gap: 8px; align-items: center; }
+        
     </style>
 </head>
 <body>
@@ -1627,7 +1670,7 @@
         </div>
 
         <!-- Cards Grid -->
-        <div class="cards-grid" id="cardsGrid">
+        <div class="cards-grid" id="cardsGrid" id="communitiesGrid">
 
         <article class="scholarship-card" 
                  data-category="Europe &amp; UK" 
@@ -3668,6 +3711,39 @@
                 }
             }
         });
+    
+        // Copy Invite Link with Feedback
+        function copyInviteLink(url, btn) {
+            if (!url || url === '#') return;
+            navigator.clipboard.writeText(url).then(() => {
+                const origHtml = btn.innerHTML;
+                btn.innerHTML = '<span>✓ Copied!</span>';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.innerHTML = origHtml;
+                    btn.classList.remove('copied');
+                }, 2000);
+            }).catch(() => {
+                window.open(url, '_blank');
+            });
+        }
+
+        // Power-User Keyboard Shortcut: Press '/' to Focus Search, 'Escape' to Clear
+        document.addEventListener('keydown', (e) => {
+            const searchEl = document.getElementById('searchInput') || document.getElementById('search-input');
+            if (!searchEl) return;
+            if (e.key === '/' && document.activeElement !== searchEl) {
+                e.preventDefault();
+                searchEl.focus();
+                searchEl.select();
+            } else if (e.key === 'Escape' && document.activeElement === searchEl) {
+                searchEl.value = '';
+                if (typeof filterCards === 'function') filterCards();
+                if (typeof clearSearch === 'function') clearSearch();
+                searchEl.blur();
+            }
+        });
+        
     </script>
 </body>
 </html>
