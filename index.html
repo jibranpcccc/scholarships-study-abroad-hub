@@ -313,6 +313,27 @@
         .btn-join { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 8px 16px; border-radius: 6px; font-size: 0.88rem; font-weight: 600; transition: opacity 0.2s; }
         .btn-join:hover { opacity: 0.9; }
         
+        /* Top Navigation & Multi-Column Trust Footer */
+        .top-nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 20px 20px; border-bottom: 1px solid var(--border); }
+        .nav-brand { font-weight: 700; font-size: 1.15rem; color: #fff; text-decoration: none; }
+        .nav-brand span { color: var(--accent); }
+        .nav-menu { display: flex; gap: 20px; align-items: center; }
+        .nav-link { color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+        .nav-link:hover, .nav-link.active { color: #fff; }
+        .nav-btn { background: var(--accent); color: #fff !important; padding: 8px 16px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; text-decoration: none; }
+        .nav-btn:hover { opacity: 0.9; }
+        
+        .footer-grid { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 30px; text-align: left; }
+        .footer-col h4 { color: #fff; font-size: 0.9rem; margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .footer-col a { display: block; color: var(--muted); text-decoration: none; font-size: 0.88rem; margin-bottom: 8px; transition: color 0.2s; }
+        .footer-col a:hover { color: var(--accent); }
+        .footer-desc { color: var(--muted); font-size: 0.88rem; line-height: 1.6; max-width: 380px; }
+        .footer-bottom { text-align: center; color: var(--muted); font-size: 0.82rem; border-top: 1px solid rgba(255,255,255,0.06); margin-top: 40px; padding-top: 25px; }
+        @media (max-width: 768px) {
+            .footer-grid { grid-template-columns: 1fr; }
+            .nav-menu { display: none; }
+        }
+
         /* Persistent Mobile Bottom Action Dock (Moz CRO Standard) */
         .mobile-dock { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: rgba(17, 24, 39, 0.95); backdrop-filter: blur(12px); border-top: 1px solid var(--border); padding: 10px 14px; z-index: 9999; gap: 8px; }
         @media (max-width: 768px) {
@@ -326,6 +347,17 @@
     </style>
 </head>
 <body>
+    
+    <nav class="top-nav">
+        <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/" class="nav-brand">Scholarships & Study Abroad Hub</a>
+        <div class="nav-menu">
+            <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/" class="nav-link active">Directory</a>
+            <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/about.html" class="nav-link ">About & Vetting</a>
+            <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/submit.html" class="nav-btn">+ Submit Group</a>
+            <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/contact.html" class="nav-link ">Contact</a>
+        </div>
+    </nav>
+    
     <header>
         <h1>Scholarships & Study Abroad Hub</h1>
         <p class="subtitle">Explore vetted, high-quality public communities, groups, and forums. Updated regularly.</p>
@@ -1109,15 +1141,40 @@
         </div>
         
         </div>
-        <footer>
-            <p>© 2026 Scholarships & Study Abroad Hub • Verified Community Index</p>
-        </footer>
     </div>
+    
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Scholarships & Study Abroad Hub</h4>
+                <p class="footer-desc">Independent, verified directory connecting enthusiasts and professionals to active communities across Telegram, Discord, WhatsApp, and Reddit.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Directory Index</h4>
+                <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/#communitiesGrid">All Verified Groups</a>
+                <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/about.html">Vetting Methodology</a>
+                <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/submit.html">Submit Your Community</a>
+                <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/feed.xml">RSS Syndication Feed</a>
+            </div>
+            <div class="footer-col">
+                <h4>Trust & Legal</h4>
+                <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/privacy.html">Privacy Policy</a>
+                <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/terms.html">Terms of Service & Disclaimer</a>
+                <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/contact.html">Contact & DMCA Removal</a>
+                <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/sitemap.xml">XML Sitemap</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Scholarships & Study Abroad Hub • Verified Independent Community Index. All rights reserved.</p>
+        </div>
+    </footer>
+    
 
     <!-- Persistent Mobile Action Dock -->
     <div class="mobile-dock">
         <button class="dock-btn" onclick="focusSearch()">🔍 Search</button>
-        <button class="dock-btn dock-btn-accent" onclick="quickFilter('all')">⭐ All Verified</button>
+        <button class="dock-btn dock-btn-accent" onclick="quickFilter('all')">⭐ Verified</button>
+        <button class="dock-btn" onclick="location.href='https://jibranpcccc.github.io/scholarships-study-abroad-hub/submit.html'">➕ Submit</button>
         <button class="dock-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">⬆ Top</button>
     </div>
 
