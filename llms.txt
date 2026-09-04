@@ -1,0 +1,16 @@
+# Scholarships & Study Abroad Hub
+> Verified directory and real-time knowledge base of online communities for international education, Erasmus Mundus, Chevening, Fulbright, DAAD scholarships, and university admissions.
+
+## Key Navigation
+- [Scholarships & Study Abroad Hub Directory](https://jibranpcccc.github.io/scholarships-study-abroad-hub/): Searchable, filterable database of verified communities across Discord, Telegram, WhatsApp, and Reddit.
+- [XML Sitemap](https://jibranpcccc.github.io/scholarships-study-abroad-hub/sitemap.xml): Complete machine-readable URL index and crawling priority directives.
+- [RSS Syndication Feed](https://jibranpcccc.github.io/scholarships-study-abroad-hub/feed.xml): Real-time syndication feed for newly discovered groups and platform updates.
+
+## Coverage
+- Discord Servers: Real-time discussions, voice channels, events, and sub-groups.
+- Telegram Channels & Groups: Instant alerts, announcements, and peer chats.
+- WhatsApp Groups: Focused cohorts and regional professional networks.
+- Reddit Subreddits: Community threads, wiki guides, and discussions.
+
+## Quality & Verification
+All listed channels undergo authentication checks, link liveness verification, and member activity monitoring.
