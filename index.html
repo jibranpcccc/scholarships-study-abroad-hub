@@ -87,10 +87,6 @@
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-      "speakable": {
-        "@type": "SpeakableSpecification",
-        "cssSelector": [".geo-answer-block h2", ".geo-answer-block p"]
-      },
     "@id": "https://jibranpcccc.github.io/scholarships-study-abroad-hub/#directory",
     "name": "Verified International Scholarships & Study Abroad Communities (2026-2027)",
     "description": "Comprehensive catalog of verified fully funded scholarships, tuition grants, and applicant mentorship networks.",
@@ -630,39 +626,6 @@
     ]
   }
 ]
-    
-        // Copy Invite Link with Feedback
-        function copyInviteLink(url, btn) {
-            if (!url || url === '#') return;
-            navigator.clipboard.writeText(url).then(() => {
-                const origHtml = btn.innerHTML;
-                btn.innerHTML = '<span>✓ Copied!</span>';
-                btn.classList.add('copied');
-                setTimeout(() => {
-                    btn.innerHTML = origHtml;
-                    btn.classList.remove('copied');
-                }, 2000);
-            }).catch(() => {
-                window.open(url, '_blank');
-            });
-        }
-
-        // Power-User Keyboard Shortcut: Press '/' to Focus Search, 'Escape' to Clear
-        document.addEventListener('keydown', (e) => {
-            const searchEl = document.getElementById('searchInput') || document.getElementById('search-input');
-            if (!searchEl) return;
-            if (e.key === '/' && document.activeElement !== searchEl) {
-                e.preventDefault();
-                searchEl.focus();
-                searchEl.select();
-            } else if (e.key === 'Escape' && document.activeElement === searchEl) {
-                searchEl.value = '';
-                if (typeof filterCards === 'function') filterCards();
-                if (typeof clearSearch === 'function') clearSearch();
-                searchEl.blur();
-            }
-        });
-        
     </script>
 
     <style>
@@ -1520,12 +1483,6 @@
             .geo-answer-block { padding: 20px; }
             .hero { padding: 48px 0 32px; }
         }
-    
-        .btn-copy-invite { background: rgba(255,255,255,0.08); color: var(--muted); border: 1px solid var(--border); padding: 7px 12px; border-radius: 6px; font-size: 0.82rem; font-weight: 500; cursor: pointer; display: inline-flex; align-items: center; gap: 5px; transition: all 0.2s; }
-        .btn-copy-invite:hover { background: rgba(255,255,255,0.15); color: #fff; }
-        .btn-copy-invite.copied { background: rgba(16, 185, 129, 0.2); color: #10b981; border-color: #10b981; }
-        .card-actions { display: flex; gap: 8px; align-items: center; }
-        
     </style>
 </head>
 <body>
@@ -1553,13 +1510,6 @@
                 <span>Explore 36+ Programs</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
             </a>
-        </div>
-    
-        <div class="stat-pills-row" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 15px;">
-            <span class="stat-pill" style="background: rgba(255,255,255,0.06); border: 1px solid var(--border); padding: 5px 12px; border-radius: 20px; font-size: 0.82rem; color: var(--muted);">📊 <strong>30+</strong> Verified Groups</span>
-            <span class="stat-pill" style="background: rgba(255,255,255,0.06); border: 1px solid var(--border); padding: 5px 12px; border-radius: 20px; font-size: 0.82rem; color: var(--muted);">⚡ <strong>100%</strong> Free Public Entry</span>
-            <span class="stat-pill" style="background: rgba(16, 185, 129, 0.12); border: 1px solid #10b981; padding: 5px 12px; border-radius: 20px; font-size: 0.82rem; color: #10b981;">🛡️ <strong>Active</strong> Human Moderation</span>
-            <span class="stat-pill" style="background: rgba(255,255,255,0.06); border: 1px solid var(--border); padding: 5px 12px; border-radius: 20px; font-size: 0.82rem; color: var(--muted);">🔄 <strong>24h</strong> Liveness Sweeps</span>
         </div>
     </header>
 
@@ -1605,7 +1555,6 @@
                 </div>
                 <span style="font-size: 0.8rem; color: var(--text-muted);">Updated 2026-09-04</span>
             </div>
-            <p class="geo-lead-passage" style="margin: 18px 0 22px; font-size: 0.98rem; line-height: 1.7; color: var(--text-secondary);">Scholarships & Study Abroad Hub is a premier, open-access international education directory indexing 258+ verified academic funding communities and fellowship networks across Telegram, Discord, WhatsApp, and Reddit, supporting over 1,890,000 prospective international students worldwide. Updated on a continuous cycle aligned with global admissions intake deadlines, the directory classifies fully funded government scholarships, university tuition waivers, and doctoral research grants spanning Europe, North America, the United Kingdom, and Asia-Pacific destinations. Each listing features a comprehensive Product Specification Matrix detailing total scholarship cohort size, application intake cycles, funding tier classifications (including 100% full-ride living stipends), and verified academic eligibility requirements. By consolidating decentralized student applicant cohorts, visa consultation forums, and peer essay-review groups into a single searchable index, the platform neutralizes fraudulent visa consultancy agencies, high-priced application advisory fees, and outdated deadline schedules, serving as a trusted primary resource for global academic mobility and merit-based financial aid discovery.</p>
             <div class="geo-grid">
                 <div class="geo-col">
                     <h4><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg> Funding Architecture</h4>
@@ -1678,7 +1627,7 @@
         </div>
 
         <!-- Cards Grid -->
-        <div class="cards-grid" id="cardsGrid" id="communitiesGrid">
+        <div class="cards-grid" id="cardsGrid">
 
         <article class="scholarship-card" 
                  data-category="Europe &amp; UK" 
@@ -3719,39 +3668,6 @@
                 }
             }
         });
-    
-        // Copy Invite Link with Feedback
-        function copyInviteLink(url, btn) {
-            if (!url || url === '#') return;
-            navigator.clipboard.writeText(url).then(() => {
-                const origHtml = btn.innerHTML;
-                btn.innerHTML = '<span>✓ Copied!</span>';
-                btn.classList.add('copied');
-                setTimeout(() => {
-                    btn.innerHTML = origHtml;
-                    btn.classList.remove('copied');
-                }, 2000);
-            }).catch(() => {
-                window.open(url, '_blank');
-            });
-        }
-
-        // Power-User Keyboard Shortcut: Press '/' to Focus Search, 'Escape' to Clear
-        document.addEventListener('keydown', (e) => {
-            const searchEl = document.getElementById('searchInput') || document.getElementById('search-input');
-            if (!searchEl) return;
-            if (e.key === '/' && document.activeElement !== searchEl) {
-                e.preventDefault();
-                searchEl.focus();
-                searchEl.select();
-            } else if (e.key === 'Escape' && document.activeElement === searchEl) {
-                searchEl.value = '';
-                if (typeof filterCards === 'function') filterCards();
-                if (typeof clearSearch === 'function') clearSearch();
-                searchEl.blur();
-            }
-        });
-        
     </script>
 </body>
 </html>
