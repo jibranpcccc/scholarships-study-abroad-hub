@@ -1,6 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Analytics 4 (GA4) Unified Measurement Tag & AI Referral Attribution -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK7NVYS1Y9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      // AI / LLM Search Engine Referral & Citations Attribution Engine
+      (function() {
+        var ref = document.referrer ? document.referrer.toLowerCase() : '';
+        var params = new URLSearchParams(window.location.search);
+        var utmSource = (params.get('utm_source') || '').toLowerCase();
+        
+        var aiEngine = null;
+        if (ref.indexOf('chatgpt.com') !== -1 || ref.indexOf('openai.com') !== -1 || utmSource.indexOf('chatgpt') !== -1) {
+          aiEngine = 'ChatGPT';
+        } else if (ref.indexOf('gemini.google.com') !== -1 || utmSource.indexOf('gemini') !== -1) {
+          aiEngine = 'Google Gemini';
+        } else if (ref.indexOf('perplexity.ai') !== -1 || utmSource.indexOf('perplexity') !== -1) {
+          aiEngine = 'Perplexity AI';
+        } else if (ref.indexOf('claude.ai') !== -1 || utmSource.indexOf('claude') !== -1) {
+          aiEngine = 'Claude AI';
+        } else if (ref.indexOf('copilot.microsoft.com') !== -1 || ref.indexOf('bing.com/chat') !== -1 || utmSource.indexOf('copilot') !== -1) {
+          aiEngine = 'Microsoft Copilot';
+        } else if (ref.indexOf('android-app://com.openai') !== -1) {
+          aiEngine = 'ChatGPT Mobile App';
+        } else if (ref.indexOf('meta.ai') !== -1) {
+          aiEngine = 'Meta AI';
+        } else if (ref.indexOf('deepseek.com') !== -1) {
+          aiEngine = 'DeepSeek AI';
+        }
+
+        var configObj = {
+          'send_page_view': true,
+          'portfolio_folder': 'ai_directory_empire',
+          'page_path': window.location.pathname
+        };
+
+        if (aiEngine) {
+          configObj['user_properties'] = { 'last_ai_referrer': aiEngine };
+          gtag('config', 'G-CK7NVYS1Y9', configObj);
+          gtag('event', 'ai_search_traffic', {
+            'event_category': 'AI Search Traffic',
+            'ai_engine': aiEngine,
+            'traffic_type': 'LLM Referral',
+            'referrer_url': ref || 'direct_or_app',
+            'landing_page': window.location.pathname,
+            'page_title': document.title
+          });
+        } else {
+          gtag('config', 'G-CK7NVYS1Y9', configObj);
+        }
+      })();
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy | Scholarships & Study Abroad Hub</title>
