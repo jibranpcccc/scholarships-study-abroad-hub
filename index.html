@@ -1440,12 +1440,58 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
+        /* Persistent Mobile Action Dock */
+        .mobile-dock {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(7, 13, 25, 0.95);
+            backdrop-filter: blur(14px);
+            border-top: 1px solid var(--border-color);
+            padding: 10px 14px;
+            z-index: 9999;
+            gap: 8px;
+        }
+
+        .dock-btn {
+            flex: 1;
+            min-height: 44px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: #fff;
+            font-weight: 600;
+            font-size: 0.82rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            transition: all 0.2s ease;
+        }
+
+        .dock-btn-accent {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: #fff;
+            border-color: #3b82f6;
+            font-weight: 700;
+        }
+
         @media (max-width: 768px) {
             .header-inner { height: auto; padding: 16px 0; flex-direction: column; gap: 12px; }
             .nav-links { display: none; }
             .cards-grid { grid-template-columns: 1fr; }
             .geo-answer-block { padding: 20px; }
             .hero { padding: 48px 0 32px; }
+            .hero h2 { font-size: clamp(1.8rem, 5vw, 2.8rem); }
+            .mobile-dock { display: flex; }
+            body { padding-bottom: 90px; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .btn-copy-invite { min-height: 44px; padding: 10px 14px; }
+            .btn.btn-primary { min-height: 44px; }
+            .pill { min-height: 42px; display: inline-flex; align-items: center; }
         }
     </style>
 </head>
@@ -1465,14 +1511,14 @@
             </div>
             <nav class="nav-links">
                 <a href="#directory" class="nav-link">Directory</a>
+                <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/about.html" class="nav-link">About &amp; Vetting</a>
                 <a href="#ai-briefing" class="nav-link">AI Briefing</a>
-                <a href="#timeline" class="nav-link">Timeline</a>
-                <a href="#eeat" class="nav-link">Verification Integrity</a>
                 <a href="#faq" class="nav-link">FAQs</a>
+                <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/contact.html" class="nav-link">Contact</a>
             </nav>
-            <a href="#directory" class="header-cta">
-                <span>Explore 36+ Programs</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/submit.html" class="header-cta">
+                <span>+ Submit Fellowship</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
             </a>
         </div>
     </header>
@@ -1488,6 +1534,12 @@
             <p class="lead">
                 The premier verified independent directory of international scholarships, master's consortia, doctoral fellowships, test prep circles, and visa peer networks. Fully funded tuition, monthly stipends, and zero predatory agency fees.
             </p>
+            <div class="stat-pills-row" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 28px;">
+                <span class="stat-pill" style="background: rgba(56,189,248,0.12); border: 1px solid rgba(56,189,248,0.3); padding: 6px 14px; border-radius: 20px; font-size: 0.82rem; color: #38bdf8;">📊 <strong>36+</strong> Vetted Programs</span>
+                <span class="stat-pill" style="background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.3); padding: 6px 14px; border-radius: 20px; font-size: 0.82rem; color: #fbbf24;">⚡ <strong>100%</strong> Zero Agency Fees</span>
+                <span class="stat-pill" style="background: rgba(16,185,129,0.12); border: 1px solid rgba(16,185,129,0.35); padding: 6px 14px; border-radius: 20px; font-size: 0.82rem; color: #10b981;">🛡️ <strong>Academic</strong> Council Vetted</span>
+                <span class="stat-pill" style="background: rgba(255,255,255,0.06); border: 1px solid var(--border-color); padding: 6px 14px; border-radius: 20px; font-size: 0.82rem; color: var(--text-secondary);">🔄 <strong>2026-2027</strong> Active Cohorts</span>
+            </div>
             <div class="hero-stats">
                 <div class="stat-box">
                     <span class="stat-number">36+</span>
@@ -3944,10 +3996,21 @@
                 </div>
 
                 <div class="footer-col">
+                    <h5>Trust &amp; Governance</h5>
+                    <ul>
+                        <li><a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/about.html">About &amp; Vetting Methodology</a></li>
+                        <li><a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/submit.html">Submit Fellowship Opportunity</a></li>
+                        <li><a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/contact.html">Contact &amp; DMCA Removal</a></li>
+                        <li><a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/privacy.html">Privacy Governance</a></li>
+                        <li><a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
                     <h5>Feeds &amp; Indexing</h5>
                     <ul>
                         <li><a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/sitemap.xml" target="_blank">XML Sitemap</a></li>
-                        <li><a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/feed.xml" target="_blank">RSS 2.0 Feed (Atom/Hub)</a></li>
+                        <li><a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/feed.xml" target="_blank">RSS 2.0 Feed</a></li>
                         <li><a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/robots.txt" target="_blank">Robots.txt</a></li>
                         <li><a href="https://github.com/jibranpcccc/scholarships-study-abroad-hub" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
                     </ul>
@@ -3964,6 +4027,14 @@
             </div>
         </div>
     </footer>
+
+    <!-- Persistent Mobile Action Dock -->
+    <div class="mobile-dock">
+        <button class="dock-btn" onclick="document.getElementById('searchInput').focus(); document.getElementById('directory').scrollIntoView({behavior: 'smooth'});">🔍 Search</button>
+        <button class="dock-btn dock-btn-accent" onclick="setFilter('funding', 'Fully Funded')">⭐ Full Ride</button>
+        <button class="dock-btn" onclick="location.href='https://jibranpcccc.github.io/scholarships-study-abroad-hub/submit.html'">➕ Submit</button>
+        <button class="dock-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">⬆ Top</button>
+    </div>
 
     <!-- Toast Notification -->
     <div id="toast" class="toast">Link copied to clipboard!</div>
@@ -4097,19 +4168,45 @@
             });
         }
 
-        function copyInviteLink(url, btn) {
-            if (!url) return;
-            if (navigator.clipboard) {
-                navigator.clipboard.writeText(url).then(() => {
-                    const orig = btn.innerHTML;
-                    btn.innerHTML = '<span>✓ Copied!</span>';
-                    btn.classList.add('copied');
-                    showToast('Link copied to clipboard!');
-                    setTimeout(() => {
-                        btn.innerHTML = orig;
-                        btn.classList.remove('copied');
-                    }, 2000);
+        // Unified copyInviteLink supporting copyInviteLink(url, btn) and copyInviteLink(event, url)
+        function copyInviteLink(arg1, arg2) {
+            if (arg1 && arg1.preventDefault) arg1.preventDefault();
+            if (arg1 && arg1.stopPropagation) arg1.stopPropagation();
+
+            let targetUrl = '';
+            let btn = null;
+
+            if (typeof arg1 === 'string') {
+                targetUrl = arg1;
+                btn = arg2;
+            } else if (arg1 && (arg1.target || arg1.currentTarget)) {
+                targetUrl = (typeof arg2 === 'string') ? arg2 : (arg1.target ? (arg1.target.getAttribute('data-url') || arg1.target.getAttribute('href')) : '');
+                btn = arg1.currentTarget || arg1.target;
+            }
+
+            if (btn && btn.closest) {
+                btn = btn.closest('.btn-copy-invite') || btn;
+            }
+
+            if (!targetUrl || targetUrl === '#') return;
+
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(targetUrl).then(() => {
+                    if (btn) {
+                        const origHtml = btn.innerHTML;
+                        btn.innerHTML = '<span>✓ Copied!</span>';
+                        btn.classList.add('copied');
+                        showToast('Scholarship link copied to clipboard!');
+                        setTimeout(() => {
+                            btn.innerHTML = origHtml;
+                            btn.classList.remove('copied');
+                        }, 2000);
+                    }
+                }).catch(() => {
+                    window.open(targetUrl, '_blank');
                 });
+            } else {
+                window.open(targetUrl, '_blank');
             }
         }
 
@@ -4151,52 +4248,6 @@
                 }
             }
         });
-    
-    
-        function copyInviteLink(event, url) {
-            if (event && event.preventDefault) event.preventDefault();
-            if (event && event.stopPropagation) event.stopPropagation();
-            var targetUrl = url || (event && event.target ? (event.target.getAttribute('data-url') || event.target.getAttribute('href')) : '');
-            var btn = event ? (event.currentTarget || event.target) : null;
-            if (btn && btn.closest) {
-                btn = btn.closest('.btn-copy-invite') || btn;
-            }
-            if (!targetUrl || targetUrl === '#') return;
-            if (navigator.clipboard && navigator.clipboard.writeText) {
-                navigator.clipboard.writeText(targetUrl).then(function() {
-                    if (btn) {
-                        var origHtml = btn.innerHTML;
-                        btn.innerHTML = '<span>✓ Copied!</span>';
-                        btn.classList.add('copied');
-                        setTimeout(function() {
-                            btn.innerHTML = origHtml;
-                            btn.classList.remove('copied');
-                        }, 2000);
-                    }
-                }).catch(function() {
-                    window.open(targetUrl, '_blank');
-                });
-            } else {
-                window.open(targetUrl, '_blank');
-            }
-        }
-
-        // Power-User Keyboard Shortcut: Press '/' to Focus Search, 'Escape' to Clear
-        document.addEventListener('keydown', function(e) {
-            var searchEl = document.getElementById('searchInput') || document.getElementById('community-search');
-            if (!searchEl) return;
-            if (e.key === '/' && document.activeElement !== searchEl) {
-                e.preventDefault();
-                searchEl.focus();
-                searchEl.select();
-            } else if (e.key === 'Escape' && document.activeElement === searchEl) {
-                searchEl.value = '';
-                if (typeof filterCards === 'function') filterCards();
-                searchEl.blur();
-            }
-        });
-    
-
-</script>
+    </script>
 </body>
 </html>
