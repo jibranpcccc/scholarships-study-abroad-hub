@@ -1,13 +1,32 @@
 [
   {
+    "id": "scholarships-study-abroad-hub-reddit-20260912-1",
+    "title": "r/scholarships Global Opportunities",
+    "platform": "Reddit",
+    "category": "Scholarships",
+    "memberCount": "140,000+ members",
+    "description": "Community tracking undergraduate, postgraduate, and international scholarships, essay reviews, and grant deadlines.",
+    "joinUrl": "https://www.reddit.com/r/scholarships/",
+    "tags": [
+      "scholarships",
+      "funding",
+      "grants",
+      "reddit"
+    ],
+    "verified": true,
+    "featured": true,
+    "isTodaysPick": true,
+    "lastUpdated": "2026-09-12"
+  },
+  {
     "id": "erasmus-mundus-joint-masters",
     "title": "Erasmus Mundus Joint Masters Scholarships (EMJM)",
     "category": "Europe & UK",
     "fundingType": "Fully Funded",
     "platform": "Consortium Hub",
     "memberCount": 94500,
-    "deadlineSeason": "October – February (Annual)",
-    "description": "European Union flagship scholarship covering 100% tuition fees, full medical insurance, travel allowance, and a monthly subsistence stipend of €1,400 for 24 months across at least two EU universities.",
+    "deadlineSeason": "October \u2013 February (Annual)",
+    "description": "European Union flagship scholarship covering 100% tuition fees, full medical insurance, travel allowance, and a monthly subsistence stipend of \u20ac1,400 for 24 months across at least two EU universities.",
     "joinUrl": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters",
     "tags": [
       "Masters",
@@ -18,7 +37,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "fulbright-foreign-student-program",
@@ -27,7 +47,7 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 82000,
-    "deadlineSeason": "February – October (Country-Specific)",
+    "deadlineSeason": "February \u2013 October (Country-Specific)",
     "description": "Administered by the U.S. Department of State, providing full graduate funding, J-1 visa sponsorship, international airfare, health benefit plan, and monthly living allowances for Master's and PhD candidates.",
     "joinUrl": "https://foreign.fulbrightonline.org/",
     "tags": [
@@ -39,7 +59,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "chevening-uk-government-scholarship",
@@ -48,7 +69,7 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 115000,
-    "deadlineSeason": "August – November (Annual)",
+    "deadlineSeason": "August \u2013 November (Annual)",
     "description": "UK Government global scholarship funded by the Foreign, Commonwealth & Development Office (FCDO), covering full university tuition at any UK institution, monthly living stipend, return economy flights, and visa costs for 1-year Master's degrees.",
     "joinUrl": "https://www.chevening.org/scholarships/",
     "tags": [
@@ -60,7 +81,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "daad-epos-germany-scholarship",
@@ -69,8 +91,8 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 78000,
-    "deadlineSeason": "August – December (Annual)",
-    "description": "German Academic Exchange Service (DAAD) Development-Related Postgraduate Courses covering full tuition waivers, €934 monthly stipend, health insurance, family subsidies, and roundtrip travel costs.",
+    "deadlineSeason": "August \u2013 December (Annual)",
+    "description": "German Academic Exchange Service (DAAD) Development-Related Postgraduate Courses covering full tuition waivers, \u20ac934 monthly stipend, health insurance, family subsidies, and roundtrip travel costs.",
     "joinUrl": "https://www.daad.de/en/study-and-research-in-germany/scholarships/",
     "tags": [
       "Germany",
@@ -81,7 +103,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "mext-japanese-government-scholarship",
@@ -90,8 +113,8 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 67000,
-    "deadlineSeason": "April – June (Embassy Track)",
-    "description": "Ministry of Education, Culture, Sports, Science and Technology (MEXT) scholarship offering full tuition exemption, monthly allowance of ¥143,000–¥145,000, round-trip airfare, and a preparatory 6-month Japanese language course.",
+    "deadlineSeason": "April \u2013 June (Embassy Track)",
+    "description": "Ministry of Education, Culture, Sports, Science and Technology (MEXT) scholarship offering full tuition exemption, monthly allowance of \u00a5143,000\u2013\u00a5145,000, round-trip airfare, and a preparatory 6-month Japanese language course.",
     "joinUrl": "https://www.studyinjapan.go.jp/en/planning/scholarship/",
     "tags": [
       "Japan",
@@ -102,7 +125,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "australia-awards-scholarships",
@@ -111,7 +135,7 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 54000,
-    "deadlineSeason": "February – April (Annual)",
+    "deadlineSeason": "February \u2013 April (Annual)",
     "description": "Department of Foreign Affairs and Trade (DFAT) prestigious awards covering complete tuition fees, return air travel, establishment allowance of AUD $5,000, Overseas Student Health Cover (OSHC), and fortnightly contribution to living expenses.",
     "joinUrl": "https://www.dfat.gov.au/people-to-people/australia-awards",
     "tags": [
@@ -124,7 +148,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "gates-cambridge-scholarship",
@@ -133,8 +158,8 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 42000,
-    "deadlineSeason": "October – January (Annual)",
-    "description": "Endowed by the Bill & Melinda Gates Foundation, providing the University Composition Fee at Cambridge, an annual maintenance allowance of £20,000, visa costs, and academic development funding up to £2,000 for postgraduate research.",
+    "deadlineSeason": "October \u2013 January (Annual)",
+    "description": "Endowed by the Bill & Melinda Gates Foundation, providing the University Composition Fee at Cambridge, an annual maintenance allowance of \u00a320,000, visa costs, and academic development funding up to \u00a32,000 for postgraduate research.",
     "joinUrl": "https://www.gatescambridge.org/",
     "tags": [
       "Cambridge University",
@@ -145,7 +170,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "vanier-canada-graduate-scholarships",
@@ -154,7 +180,7 @@
     "fundingType": "Research Grant",
     "platform": "Official Portal",
     "memberCount": 36000,
-    "deadlineSeason": "July – November (Annual)",
+    "deadlineSeason": "July \u2013 November (Annual)",
     "description": "Government of Canada flagship doctoral award providing CAD $50,000 annually for three years to world-class doctoral students in health research, natural sciences, engineering, and social sciences.",
     "joinUrl": "https://vanier.gc.ca/en/home-accueil.html",
     "tags": [
@@ -166,7 +192,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "swiss-government-excellence-scholarships",
@@ -175,7 +202,7 @@
     "fundingType": "Research Grant",
     "platform": "Official Portal",
     "memberCount": 29000,
-    "deadlineSeason": "August – December (Annual)",
+    "deadlineSeason": "August \u2013 December (Annual)",
     "description": "Federal Commission for Scholarships for Foreign Students (FCS) offers research fellowships, PhD scholarships, and postdocs at Swiss cantonal universities, ETH Zurich, and EPFL with monthly allowances up to CHF 1,920 and mandatory Swiss health insurance.",
     "joinUrl": "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html",
     "tags": [
@@ -188,16 +215,17 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "turkiye-burslari-scholarships",
-    "title": "Türkiye Bursları Government Scholarships",
+    "title": "T\u00fcrkiye Burslar\u0131 Government Scholarships",
     "category": "Europe & UK",
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 130000,
-    "deadlineSeason": "January – February (Annual)",
+    "deadlineSeason": "January \u2013 February (Annual)",
     "description": "Comprehensive international student scholarship by the Presidency for Turks Abroad, including university placement, full tuition fees, free dormitory accommodation, 1-year Turkish language course, health insurance, and monthly stipends.",
     "joinUrl": "https://www.turkiyeburslari.gov.tr/",
     "tags": [
@@ -209,7 +237,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "knight-hennessy-scholars-stanford",
@@ -218,7 +247,7 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 48000,
-    "deadlineSeason": "June – October (Annual)",
+    "deadlineSeason": "June \u2013 October (Annual)",
     "description": "Multidisciplinary fellowship covering up to three years of graduate tuition, living and academic expense stipends, and travel grant for any graduate degree program at Stanford University.",
     "joinUrl": "https://knight-hennessy.stanford.edu/",
     "tags": [
@@ -230,7 +259,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "schwarzman-scholars-tsinghua",
@@ -239,7 +269,7 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 38000,
-    "deadlineSeason": "April – September (Annual)",
+    "deadlineSeason": "April \u2013 September (Annual)",
     "description": "One-year Master of Global Affairs program at Tsinghua University in Beijing, providing tuition, room and board, roundtrip airfare, in-country study tour, Lenovo laptop, health insurance, and a $4,000 personal stipend.",
     "joinUrl": "https://www.schwarzmanscholars.org/",
     "tags": [
@@ -251,7 +281,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "global-korea-scholarship-gks",
@@ -260,7 +291,7 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 89000,
-    "deadlineSeason": "February – March (Graduate) / Sept (Undergrad)",
+    "deadlineSeason": "February \u2013 March (Graduate) / Sept (Undergrad)",
     "description": "National Institute for International Education (NIIED) award covering full university tuition, KRW 1,000,000 monthly allowance, settlement allowance, airfare, medical insurance, and 1-year intensive Korean language training.",
     "joinUrl": "https://www.studyinkorea.go.kr/",
     "tags": [
@@ -272,7 +303,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "singapore-international-graduate-award",
@@ -281,9 +313,9 @@
     "fundingType": "Research Grant",
     "platform": "Official Portal",
     "memberCount": 31000,
-    "deadlineSeason": "June – December (Bi-Annual)",
+    "deadlineSeason": "June \u2013 December (Bi-Annual)",
     "description": "Collaboration between A*STAR, NTU, NUS, and SUTD providing up to 4 years of PhD funding with full tuition coverage, monthly stipend of S$2,200 (increasing to S$2,700 post-qualifying), one-time airfare grant of S$1,500, and S$1,000 settling-in allowance.",
-    "joinUrl": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa",
+    "joinUrl": "https://www.a-star.edu.sg/scholarships",
     "tags": [
       "Singapore",
       "PhD",
@@ -294,7 +326,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "swedish-institute-scholarships-sisgp",
@@ -303,7 +336,7 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 46000,
-    "deadlineSeason": "October – February (Annual)",
+    "deadlineSeason": "October \u2013 February (Annual)",
     "description": "Funded by the Swedish Ministry for Foreign Affairs for master's studies in Sweden. Covers full tuition directly to universities, a monthly living allowance of SEK 12,000, travel grant of SEK 15,000, and comprehensive insurance.",
     "joinUrl": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
     "tags": [
@@ -315,7 +348,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "eiffel-excellence-scholarship-france",
@@ -324,8 +358,8 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 35000,
-    "deadlineSeason": "September – January (Annual)",
-    "description": "Established by the French Ministry for Europe and Foreign Affairs to attract top international master's and doctoral students, granting €1,181/month (Master's) or €1,700/month (PhD), return flights, health insurance, and cultural activities.",
+    "deadlineSeason": "September \u2013 January (Annual)",
+    "description": "Established by the French Ministry for Europe and Foreign Affairs to attract top international master's and doctoral students, granting \u20ac1,181/month (Master's) or \u20ac1,700/month (PhD), return flights, health insurance, and cultural activities.",
     "joinUrl": "https://www.campusfrance.org/en/the-eiffel-scholarship-program",
     "tags": [
       "France",
@@ -336,7 +370,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "government-of-ireland-postgraduate-scholarship",
@@ -345,8 +380,8 @@
     "fundingType": "Research Grant",
     "platform": "Official Portal",
     "memberCount": 24000,
-    "deadlineSeason": "September – October (Annual)",
-    "description": "Irish Research Council initiative offering a stipend of €19,000 per annum, a contribution to fees including non-EU fees up to €5,750 per annum, and eligible direct research expenses of €3,250 per annum for Master's by research and PhDs.",
+    "deadlineSeason": "September \u2013 October (Annual)",
+    "description": "Irish Research Council initiative offering a stipend of \u20ac19,000 per annum, a contribution to fees including non-EU fees up to \u20ac5,750 per annum, and eligible direct research expenses of \u20ac3,250 per annum for Master's by research and PhDs.",
     "joinUrl": "https://research.ie/funding/goipg/",
     "tags": [
       "Ireland",
@@ -357,7 +392,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "rhodes-scholarship-oxford",
@@ -366,8 +402,8 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 51000,
-    "deadlineSeason": "June – October (Regional Deadlines)",
-    "description": "The world's oldest and most renowned graduate scholarship covering all Oxford University fees, an annual maintenance stipend of £18,180, international airfare, student visa fee, and International Health Surcharge (IHS).",
+    "deadlineSeason": "June \u2013 October (Regional Deadlines)",
+    "description": "The world's oldest and most renowned graduate scholarship covering all Oxford University fees, an annual maintenance stipend of \u00a318,180, international airfare, student visa fee, and International Health Surcharge (IHS).",
     "joinUrl": "https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/",
     "tags": [
       "Oxford University",
@@ -377,7 +413,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "rotary-peace-fellowship",
@@ -386,7 +423,7 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 27000,
-    "deadlineSeason": "February – May (Annual)",
+    "deadlineSeason": "February \u2013 May (Annual)",
     "description": "Fully funded academic fellowship covering tuition and fees, room and board, round-trip transportation, and internship and field-study expenses at leading peace centers across the USA, UK, Japan, Australia, and Sweden.",
     "joinUrl": "https://www.rotary.org/en/our-programs/peace-fellowships",
     "tags": [
@@ -398,7 +435,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "commonwealth-masters-scholarships-uk",
@@ -407,8 +445,8 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 63000,
-    "deadlineSeason": "September – December (Annual)",
-    "description": "Funded by the UK Foreign, Commonwealth & Development Office for candidates from developing Commonwealth countries. Covers approved tuition fees, monthly living allowance of £1,347 (£1,652 in London), return flights, and warm clothing allowance.",
+    "deadlineSeason": "September \u2013 December (Annual)",
+    "description": "Funded by the UK Foreign, Commonwealth & Development Office for candidates from developing Commonwealth countries. Covers approved tuition fees, monthly living allowance of \u00a31,347 (\u00a31,652 in London), return flights, and warm clothing allowance.",
     "joinUrl": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
     "tags": [
       "Commonwealth",
@@ -419,7 +457,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "ielts-academic-prep-telegram-network",
@@ -440,7 +479,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "gre-quant-verbal-elite-prep-community",
@@ -461,7 +501,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "toefl-ibt-speaking-writing-circle",
@@ -482,7 +523,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "german-student-visa-blocked-account-network",
@@ -491,8 +533,8 @@
     "fundingType": "Partial / Tuition",
     "platform": "Telegram Network",
     "memberCount": 87000,
-    "deadlineSeason": "Peak: June – September & Dec – February",
-    "description": "Specialized relocation community assisting prospective German university students with Auswärtiges Amt appointment waitlists, Fintiba/Expatrio blocked accounts (€11,904 requirement), statutory health insurance (TK/Barmer), and APS certificate steps.",
+    "deadlineSeason": "Peak: June \u2013 September & Dec \u2013 February",
+    "description": "Specialized relocation community assisting prospective German university students with Ausw\u00e4rtiges Amt appointment waitlists, Fintiba/Expatrio blocked accounts (\u20ac11,904 requirement), statutory health insurance (TK/Barmer), and APS certificate steps.",
     "joinUrl": "https://t.me/germany_student_visa_help",
     "tags": [
       "Germany",
@@ -503,7 +545,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "us-f1-visa-interview-ds160-network",
@@ -512,7 +555,7 @@
     "fundingType": "Partial / Tuition",
     "platform": "WhatsApp Network",
     "memberCount": 64000,
-    "deadlineSeason": "Peak: May – August (Fall Intake)",
+    "deadlineSeason": "Peak: May \u2013 August (Fall Intake)",
     "description": "Crowdsourced interview questions and embassy experience database for international students applying for US F-1 visas. Covers 214(b) immigrant intent rebuttal, I-20 financial verification, and SEVIS fee tracking.",
     "joinUrl": "https://chat.whatsapp.com/invite/f1-visa-interview-prep",
     "tags": [
@@ -524,7 +567,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "uk-student-visa-graduate-route-forum",
@@ -533,7 +577,7 @@
     "fundingType": "Partial / Tuition",
     "platform": "Telegram Network",
     "memberCount": 58000,
-    "deadlineSeason": "Peak: July – October (Autumn Intake)",
+    "deadlineSeason": "Peak: July \u2013 October (Autumn Intake)",
     "description": "Dedicated UK Home Office compliance network providing advice on CAS issuance, TB test certification, biometric appointments via VFS Global, financial evidence 28-day rule, and the 2-year Graduate Route work visa.",
     "joinUrl": "https://t.me/uk_student_visa_community",
     "tags": [
@@ -545,7 +589,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "canada-study-permit-sds-processing-circle",
@@ -554,7 +599,7 @@
     "fundingType": "Partial / Tuition",
     "platform": "Telegram Network",
     "memberCount": 92000,
-    "deadlineSeason": "Year-Round (Peak: April – July)",
+    "deadlineSeason": "Year-Round (Peak: April \u2013 July)",
     "description": "Comprehensive IRCC student advisory network tracking GIC certificate deposits, PAL (Provincial Attestation Letter) quotas, medical exams, study permit processing timelines, and PGWP (Post-Graduation Work Permit) eligibility.",
     "joinUrl": "https://t.me/canada_study_permit_forum",
     "tags": [
@@ -566,7 +611,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "erasmus-mundus-applicants-consortium-community",
@@ -575,7 +621,7 @@
     "fundingType": "Fully Funded",
     "platform": "Telegram Network",
     "memberCount": 71000,
-    "deadlineSeason": "September – January (EMJM Cycle)",
+    "deadlineSeason": "September \u2013 January (EMJM Cycle)",
     "description": "Peer mentorship group linking current applicants with Erasmus Mundus scholars. Provides programme-specific motivation letter feedback, consortium interview preparation, and cross-border European visa transition guides.",
     "joinUrl": "https://t.me/erasmus_mundus_scholars",
     "tags": [
@@ -587,7 +633,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "nordic-green-future-scholars",
@@ -596,7 +643,7 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 18000,
-    "deadlineSeason": "September – December (Annual)",
+    "deadlineSeason": "September \u2013 December (Annual)",
     "description": "This prestigious program supports international students pursuing Master's or PhD degrees in environmental science, renewable energy, and sustainable development across leading Nordic universities. It covers full tuition fees, provides a generous monthly stipend for living expenses, and includes round-trip airfare. Eligibility requires a strong academic record and a commitment to global sustainability challenges.",
     "joinUrl": "https://www.nordicgreenscholars.org",
     "tags": [
@@ -610,7 +657,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "taiwan-moe-elite-scholars",
@@ -619,9 +667,9 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 12000,
-    "deadlineSeason": "February – April (Annual)",
+    "deadlineSeason": "February \u2013 April (Annual)",
     "description": "Designed for outstanding international students pursuing advanced degrees in critical fields such as semiconductor technology, Mandarin studies, and biomedical engineering at top Taiwanese institutions. The scholarship provides full tuition coverage, a monthly living allowance, and a one-time international airfare subsidy. Applicants must demonstrate academic excellence and a keen interest in contributing to Taiwan's strategic sectors.",
-    "joinUrl": "https://www.moe.gov.tw/elitescholars",
+    "joinUrl": "https://taiwanscholarship.moe.gov.tw/",
     "tags": [
       "Taiwan",
       "Asia",
@@ -633,7 +681,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "invest-your-talent-italy",
@@ -642,9 +691,9 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 15000,
-    "deadlineSeason": "February – April (Annual)",
+    "deadlineSeason": "February \u2013 April (Annual)",
     "description": "The Invest Your Talent in Italy program offers scholarships for Master's and PhD degrees in engineering, advanced technologies, and design at top Italian universities. It covers full tuition fees, provides a monthly stipend for living costs, and includes professional training and internship opportunities. While airfare is typically not included, comprehensive living expenses are covered.",
-    "joinUrl": "https://investyourtalent.esteri.it/en/",
+    "joinUrl": "https://studyinitaly.esteri.it/",
     "tags": [
       "Italy",
       "Engineering",
@@ -656,7 +705,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "new-zealand-aid-scholarships",
@@ -665,7 +715,7 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 10000,
-    "deadlineSeason": "February – March (Annual)",
+    "deadlineSeason": "February \u2013 March (Annual)",
     "description": "The New Zealand Scholarships are fully funded awards for eligible international students from developing countries to pursue undergraduate and postgraduate studies at New Zealand universities and tertiary institutions. These scholarships cover full tuition fees, return airfares, living costs, and medical insurance, focusing on development-oriented academic disciplines.",
     "joinUrl": "https://www.mfat.govt.nz/en/aid-and-development/new-zealand-scholarships/",
     "tags": [
@@ -679,7 +729,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "kaust-fellowship-saudi-arabia",
@@ -688,8 +739,8 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 26500,
-    "deadlineSeason": "October – January (Annual)",
-    "description": "Prestigious all-inclusive graduate fellowship supporting Master's and PhD STEM students with full tuition support, monthly living allowance ($20,000–$30,000 annually), on-campus private housing, medical and dental coverage, and relocation assistance.",
+    "deadlineSeason": "October \u2013 January (Annual)",
+    "description": "Prestigious all-inclusive graduate fellowship supporting Master's and PhD STEM students with full tuition support, monthly living allowance ($20,000\u2013$30,000 annually), on-campus private housing, medical and dental coverage, and relocation assistance.",
     "joinUrl": "https://www.kaust.edu.sa/en/study/fellowship-and-funding",
     "tags": [
       "KAUST",
@@ -701,7 +752,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "mccall-macbain-scholarships-mcgill",
@@ -710,7 +762,7 @@
     "fundingType": "Fully Funded",
     "platform": "Official Portal",
     "memberCount": 31000,
-    "deadlineSeason": "June – August (Annual)",
+    "deadlineSeason": "June \u2013 August (Annual)",
     "description": "Canada's comprehensive leadership-driven scholarship for master's and professional degree programs at McGill University. Covers full tuition and fees, a CAD $2,000 monthly living stipend, and relocation grants.",
     "joinUrl": "https://mccallmacbainscholars.org/",
     "tags": [
@@ -722,7 +774,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "cern-doctoral-technical-student-programme",
@@ -732,8 +785,8 @@
     "platform": "Official Portal",
     "memberCount": 21000,
     "deadlineSeason": "Bi-Annual (March & October)",
-    "description": "European Organization for Nuclear Research (CERN) fellowship providing 3,700–4,200 CHF monthly living allowance, comprehensive medical insurance, travel allowance, and state-of-the-art laboratory placement in Geneva, Switzerland.",
-    "joinUrl": "https://careers.cern/students",
+    "description": "European Organization for Nuclear Research (CERN) fellowship providing 3,700\u20134,200 CHF monthly living allowance, comprehensive medical insurance, travel allowance, and state-of-the-art laboratory placement in Geneva, Switzerland.",
+    "joinUrl": "https://careers.cern/early-career",
     "tags": [
       "CERN",
       "Physics",
@@ -743,7 +796,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "monash-international-leadership-scholarship",
@@ -764,6 +818,7 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   }
 ]

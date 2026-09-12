@@ -182,8 +182,13 @@ def build_schema_json(groups):
 def generate_cards_html(groups):
     cards = []
     for idx, g in enumerate(groups, 1):
-        funding_class = "funding-full" if g["fundingType"] == "Fully Funded" else ("funding-partial" if "Partial" in g["fundingType"] else "funding-grant")
-        featured_badge = '<span class="badge badge-featured">★ Featured Program</span>' if g.get("featured") else ''
+        is_today = g.get("isTodaysPick") or g.get("lastUpdated") == datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        if is_today:
+            featured_badge = '<span class="badge badge-featured" style="background: rgba(245, 158, 11, 0.2); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.4); font-weight: 700;">📅 Today\'s Fresh Pick</span>'
+        elif g.get("featured"):
+            featured_badge = '<span class="badge badge-featured">★ Featured Program</span>'
+        else:
+            featured_badge = ''
         tags_html = "".join([f'<span class="tag">{html.escape(t)}</span>' for t in g.get("tags", [])])
         member_display = f"{g['memberCount']:,}" if isinstance(g.get("memberCount"), (int, float)) else g.get("memberCount", "N/A")
 

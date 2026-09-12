@@ -55,22 +55,23 @@
         }
       })();
     </script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submit Your Community | Scholarships & Study Abroad Hub</title>
-    <meta name="description" content="Submit your verified community to Scholarships & Study Abroad Hub. Free listing for active Discord, Telegram, WhatsApp, and Reddit groups.">
+        <meta name="google-site-verification" content="googleea44fcb8997adc37">
+    <meta name="google-site-verification" content="ea44fcb8997adc37">
+    <title>Submit Community | Scholarships & Study Abroad Hub</title>
+    <meta name="description" content="Submit your verified community to Scholarships & Study Abroad Hub with our verified public directory. Explore free indexing for active Discord, Telegram,...">
     <link rel="canonical" href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/submit.html">
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta property="og:title" content="Submit Your Community | Scholarships & Study Abroad Hub">
-    <meta property="og:description" content="Submit your verified community to Scholarships & Study Abroad Hub. Free listing for active Discord, Telegram, WhatsApp, and Reddit groups.">
+    <meta property="og:title" content="Submit Community | Scholarships & Study Abroad Hub">
+    <meta property="og:description" content="Submit your verified community to Scholarships & Study Abroad Hub with our verified public directory. Explore free indexing for active Discord, Telegram,...">
     <meta property="og:url" content="https://jibranpcccc.github.io/scholarships-study-abroad-hub/submit.html">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Scholarships & Study Abroad Hub">
     <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Submit Your Community | Scholarships & Study Abroad Hub">
-    <meta name="twitter:description" content="Submit your verified community to Scholarships & Study Abroad Hub. Free listing for active Discord, Telegram, WhatsApp, and Reddit groups.">
+    <meta name="twitter:title" content="Submit Community | Scholarships & Study Abroad Hub">
+    <meta name="twitter:description" content="Submit your verified community to Scholarships & Study Abroad Hub with our verified public directory. Explore free indexing for active Discord, Telegram,...">
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -79,8 +80,8 @@
       "@type": "WebPage",
       "@id": "https://jibranpcccc.github.io/scholarships-study-abroad-hub/submit.html#webpage",
       "url": "https://jibranpcccc.github.io/scholarships-study-abroad-hub/submit.html",
-      "name": "Submit Your Community | Scholarships & Study Abroad Hub",
-      "description": "Submit your verified community to Scholarships & Study Abroad Hub. Free listing for active Discord, Telegram, WhatsApp, and Reddit groups.",
+      "name": "Submit Community | Scholarships & Study Abroad Hub",
+      "description": "Submit your verified community to Scholarships & Study Abroad Hub with our verified public directory. Explore free indexing for active Discord, Telegram,...",
       "isPartOf": {
         "@id": "https://jibranpcccc.github.io/scholarships-study-abroad-hub/#website"
       },
@@ -152,9 +153,10 @@
         .form-control:focus { border-color: var(--accent); }
         .btn-submit { display: inline-block; background: var(--accent); color: #fff; border: none; padding: 12px 26px; border-radius: 8px; font-weight: 600; font-size: 1rem; cursor: pointer; transition: opacity 0.2s; text-decoration: none; }
         .btn-submit:hover { opacity: 0.9; }
-        .alert-success { display: none; background: rgba(16, 185, 129, 0.15); border: 1px solid #10b981; color: #10b981; padding: 15px 20px; border-radius: 8px; margin-bottom: 20px; }
         
-        footer { border-top: 1px solid var(--border); margin-top: 60px; padding: 50px 20px 30px; }
+        .alert-success { display: none; background: rgba(16, 185, 129, 0.15); border: 1px solid #10b981; color: #10b981; padding: 16px 20px; border-radius: 8px; margin-bottom: 25px; }
+        
+        footer { border-top: 1px solid var(--border); padding: 50px 20px 30px; margin-top: 60px; background: rgba(0,0,0,0.2); }
         .footer-grid { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 30px; text-align: left; }
         .footer-col h4 { color: #fff; font-size: 0.9rem; margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.5px; }
         .footer-col a { display: block; color: var(--muted); text-decoration: none; font-size: 0.88rem; margin-bottom: 8px; transition: color 0.2s; }
@@ -164,7 +166,8 @@
         
         @media (max-width: 768px) {
             .footer-grid { grid-template-columns: 1fr; }
-            .nav-menu { display: none; }
+            .top-nav { flex-direction: column; gap: 12px; align-items: flex-start; padding: 14px 16px; }
+            .nav-menu { width: 100%; justify-content: space-between; flex-wrap: wrap; }
         }
     
     </style>
@@ -186,7 +189,7 @@
             <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/">Home</a> / <span>Submit Community</span>
         </div>
         <h1>Submit Your Community</h1>
-        <p class="lead">Are you an admin or creator of an active community dedicated to International Scholarships & Study Abroad? Submit your group below for automated verification and free indexing.</p>
+        <p class="lead">Are you an admin or creator of an active community dedicated to Erasmus Mundus, Fulbright, Chevening, DAAD, global fellowships? Submit your group below for automated verification and free indexing.</p>
 
         <div id="submitAlert" class="alert-success">
             ✓ <strong>Submission Received!</strong> Your community has been added to our verification queue. Our crawler will check the invite link and moderation status within 24 hours.
@@ -225,22 +228,30 @@
                     <textarea id="commDesc" class="form-control" rows="4" placeholder="Briefly describe what members discuss, community guidelines, and why members should join..." required></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="adminEmail">Admin / Contact Email (Optional)</label>
-                    <input type="email" id="adminEmail" class="form-control" placeholder="admin@communitydirectory.org (used only for verification updates)">
+                    <label for="commContact">Contact Email (for administrative notices only)</label>
+                    <input type="email" id="commContact" class="form-control" placeholder="desk@authoritydirectory.org">
                 </div>
-                <button type="submit" class="btn-submit">Submit Community for Verification →</button>
+                <button type="submit" class="btn-submit">Submit for Verification →</button>
             </form>
         </div>
 
         <div class="content-card">
-            <h2>📋 Submission Guidelines & Curation Policy</h2>
+            <h2>📋 Community Curation Standards & Acceptance Criteria</h2>
+            <p>Our editorial team applies strict, transparent standards to maintain our reputation as an authoritative directory. Before submitting your community, ensure it complies with the following mandatory prerequisites:</p>
             <ul>
-                <li><strong>Minimum Membership:</strong> Communities must have at least 50+ active members before index approval.</li>
-                <li><strong>Working Invites:</strong> Provide permanent, non-expiring invitation links to ensure uninterrupted user access.</li>
-                <li><strong>Zero Tolerance:</strong> Groups containing spam, malware, hate speech, or financial scams are permanently rejected.</li>
-                <li><strong>Free Directory:</strong> Indexation is 100% free; we never charge for inclusion or verified status.</li>
-                <li><strong>Audit Cycle:</strong> Approved groups undergo bi-weekly automated re-verification to maintain indexing integrity.</li>
+                <li><strong>Active Membership Threshold:</strong> Communities must demonstrate a minimum of 250 verified participants with regular conversational velocity. Stagnant groups or bot-inflated channels are automatically disqualified.</li>
+                <li><strong>Anti-Spam & Moderator Presence:</strong> Dedicated administrators or automated moderation bots must be active to remove unsolicited promotions, harmful links, and abusive interactions.</li>
+                <li><strong>Zero-Cost Accessibility:</strong> Primary discussion rooms must be 100% free to access. We do not index groups that require paid subscriptions, private NFT gates, or upfront transactional fees to enter.</li>
+                <li><strong>Permanent Public Direct Links:</strong> Invite links must point directly to official platform endpoints (such as discord.gg vanity links, t.me channels, or reddit.com subreddits) without intermediate shorteners or paywalls.</li>
             </ul>
+        </div>
+
+        <div class="content-card">
+            <h2>🔍 The Automated Verification Pipeline</h2>
+            <p>Every submitted group enters our automated curation pipeline to confirm its validity prior to publication:</p>
+            <p><strong>Phase 1: Automated Endpoint Ping:</strong> Our system verifies that the provided invite link returns a valid HTTP response and is not expired, rate-limited, or redirected.</p>
+            <p><strong>Phase 2: Editorial Review:</strong> A human reviewer inspects the community rules, description accuracy, and member engagement to ensure alignment with our directory taxonomy.</p>
+            <p><strong>Phase 3: Directory Publication & Indexing:</strong> Approved communities receive live cards with real-time copy invite buttons, spec matrix badges, and structured Schema.org breadcrumb markup.</p>
         </div>
     </div>
 
@@ -252,7 +263,7 @@
             </div>
             <div class="footer-col">
                 <h4>Directory Index</h4>
-                <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/#communitiesGrid">All Verified Groups</a>
+                <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/#vetted-communities">All Verified Groups</a>
                 <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/about.html">Vetting Methodology</a>
                 <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/submit.html">Submit Your Community</a>
                 <a href="https://jibranpcccc.github.io/scholarships-study-abroad-hub/feed.xml">RSS Syndication Feed</a>
