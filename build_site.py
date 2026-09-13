@@ -189,25 +189,28 @@ def generate_cards_html(groups):
             featured_badge = '<span class="badge badge-featured">★ Featured Program</span>'
         else:
             featured_badge = ''
+        funding_type = g.get("fundingType", "Fully Funded")
+        funding_class = "badge-fully-funded" if "full" in funding_type.lower() else "badge-partial"
         tags_html = "".join([f'<span class="tag">{html.escape(t)}</span>' for t in g.get("tags", [])])
-        member_display = f"{g['memberCount']:,}" if isinstance(g.get("memberCount"), (int, float)) else g.get("memberCount", "N/A")
+        member_val = g.get("memberCount", "N/A")
+        member_display = f"{member_val:,}" if isinstance(member_val, (int, float)) else str(member_val)
 
         card = f"""
         <article id="community-card-{idx}" class="scholarship-card" 
-                 data-category="{html.escape(g['category'])}" 
-                 data-funding="{html.escape(g['fundingType'])}" 
-                 data-id="{html.escape(g['id'])}"
-                 data-title="{html.escape(g['title'].lower())}"
+                 data-category="{html.escape(g.get('category', 'Scholarships'))}" 
+                 data-funding="{html.escape(funding_type)}" 
+                 data-id="{html.escape(g.get('id', str(idx)))}"
+                 data-title="{html.escape(g.get('title', '').lower())}"
                  data-tags="{html.escape(' '.join(g.get('tags', [])).lower())}">
             <div class="card-header">
                 <div class="badge-row">
-                    <span class="badge {funding_class}">{html.escape(g['fundingType'])}</span>
-                    <span class="badge badge-category">{html.escape(g['category'])}</span>
+                    <span class="badge {funding_class}">{html.escape(funding_type)}</span>
+                    <span class="badge badge-category">{html.escape(g.get('category', 'Scholarships'))}</span>
                     {featured_badge}
                     <span class="badge badge-verified"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Verified</span>
                 </div>
                 <h3 class="card-title">
-                    <a href="{html.escape(g['joinUrl'])}" target="_blank" rel="noopener noreferrer">{html.escape(g['title'])}</a>
+                    <a href="{html.escape(g.get('joinUrl', '#'))}" target="_blank" rel="noopener noreferrer">{html.escape(g.get('title', 'Scholarship'))}</a>
                 </h3>
             </div>
             <p class="card-desc">{html.escape(g['description'])}</p>
@@ -1919,8 +1922,8 @@ def build_feed_xml(groups):
       <title><![CDATA[{g['title']}]]></title>
       <link>{g['joinUrl']}</link>
       <guid isPermaLink="false">{SITE_URL}/#{g['id']}</guid>
-      <description><![CDATA[{g['description']} | Funding: {g['fundingType']} | Category: {g['category']} | Cycle: {g.get('deadlineSeason', 'Annual')}]]></description>
-      <category><![CDATA[{g['category']}]]></category>
+      <description><![CDATA[{g.get('description', '')} | Funding: {g.get('fundingType', 'Fully Funded')} | Category: {g.get('category', 'Scholarships')} | Cycle: {g.get('deadlineSeason', 'Annual')}]]></description>
+      <category><![CDATA[{g.get('category', 'Scholarships')}]]></category>
       <pubDate>{pub_date}</pubDate>
     </item>""")
 
